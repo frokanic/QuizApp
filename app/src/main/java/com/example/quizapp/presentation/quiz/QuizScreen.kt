@@ -24,17 +24,17 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.quizapp.domain.model.Question
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.layout.ContentScale
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.example.quizapp.presentation.Screen
 
 @Composable
 fun Quiz(
     navController: NavController,
-    viewModel: QuizScreenViewModel = viewModel()
+    viewModel: QuizScreenViewModel = hiltViewModel()
 ) {
     val questions by viewModel.questions.observeAsState(initial = emptyList())
     val currentQuestionIndex by viewModel.currentQuestionIndex.observeAsState(initial = 0)

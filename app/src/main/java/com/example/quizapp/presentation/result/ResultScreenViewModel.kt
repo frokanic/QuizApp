@@ -7,7 +7,7 @@ import javax.inject.Inject
 class ResultScreenViewModel @Inject constructor() : ViewModel() {
 
     fun getUsername(): String {
-        return AppData.name ?: "_"
+        return AppData.name ?: ""
     }
 
     fun getScore(): String? {
