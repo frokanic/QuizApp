@@ -1,5 +1,5 @@
 # 🌍 Quiz App
-The Quiz App is an Android application developed as part of the The Complete Android 12 & Kotlin Development Masterclass on Udemy. Being a slightly more experienced developer, instead of skipping this project, I decided to use it to experiment with Jetpack Compose and clean architecture. This project serves as a fun and interactive way for users to engage with a quiz-like experience, while showcasing the power and flexibility of Jetpack Compose and Android's modern development tools.
+The Quiz App is an Android application developed as part of [The Complete Android 12 & Kotlin Development Masterclass](https://www.udemy.com/course/android-kotlin-developer/) on Udemy. Being a slightly more experienced developer, instead of skipping this project, I decided to use it to experiment with Jetpack Compose and clean architecture. This project serves as a fun and interactive way for users to engage with a quiz-like experience, while showcasing the power and flexibility of Jetpack Compose and Android's modern development tools.
 
 ## ✨ Features
 - 🌍 Interactive quiz questions about various country flags
